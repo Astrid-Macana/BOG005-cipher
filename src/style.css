@@ -1,0 +1,27 @@
+.e10_4 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:265px;
+	height:239px;
+	background-image:url(images/doctor.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.e3_2 { 
+	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
+	width:620px;
+	height:93px;
+}
+.e3_2 { 
+	border:1px solid rgba(114.03900191187859, 9.009118974208832, 196.5624949336052, 1);
+}
+
+.e6_2 { 
+	color:rgba(20.61251074075699, 172.73278802633286, 206.12500101327896, 1);
+	width:515px;
+	height:58px;
+	font-family:IM FELL Great Primer;
+	text-align:right;
+	font-size:48px;
+	letter-spacing:0;
+}
