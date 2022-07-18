@@ -6,8 +6,70 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="e10_4"></div>
-    <div class="e3_2"> <span  class="e6_2">Mi Consualta a un cliCk</span></div>
+    <header>
+      <div class= ¨container¨> 
+      <p class="logo">"Salud y Vida"</p>
+     </div>
+      </header>
+       <section id="hero"> 
+       <h1>Seremos la solucion mas oportuna clara y transparentes <br>¡Tu salud es nuestra prioridad!<br></h1>
+   
+      </section>
+            <section id="salud-vida">
+              <div [class]="container">
+
+              <div class="img.container"></div>
+              <h2> Salud y vida </h2>
+              <p>Tu bienestar y tranquilidad son nuestra meta, contamos con un gran talento humano de las distinas especialidades para así ser mas eficientes y oportunos en tu atención. </p>
+           </div>
+      
+        </section>
+  
+
+  ><section id="Nuestros programas">
+    <div class="container">
+      <h3> Nuestros programas</h3>
+          <div class="carta"></div>
+         <b>promoción y prevención </b>
+         <p> <br>¿Que son?</br>Son actividades basadas en el autocuidado y autocontrol, dirigidas a personas y familias para identificar riesgos y detectar tempranamente enfermedades y así brindar un tratamiento oportuno. </p>
+        
+         <selection name="programa"id="definicion">
+         <option value="A">Adulto mayor</option>
+         <option value="p">planificacion familiar</option> 
+         <butoon>mas info</butoon>
+         </selection>
+          
+         
+         <h3>Especialidades</h3>
+         <div class="carta"></div>
+         <selection name="nombre"id="especialidad">
+         <option value="N">Nurologia</option>
+         <option value="R">Reumatologia</option> 
+         <butoon>mas info</butoon>
+         </selection>
+         
+       
+    </div>           
+  </section>
+
+  <section class="form-register">
+       <div class="container">
+        <div class="box">CREA TU CONTRASEÑA
+          <h4>CONTRASEÑA:</h4>
+          <p><input type="text" id="mensaje"></p>
+          <h4>clave</h4>
+          <p><input type="number" min="0" id="clave"size=4></p>
+          <h4> Mensaje Cifrado</h4>
+          <p> <button type="button" id="cifrar" onclick="prueba(2,2)">Cifrar </button></p>
+          <p ><textarea type="text" id="mensaje2" readonly></textarea> </p>
+          <h4> Mensaje Descifrado</h4>
+          <p> <button type="button" id="descifrar">Descifrar </button></p>
+          <p ><textarea type="text" id="mensaje2" readonly></textarea> </p>
+        </div>
+        
+
+  
+  </section>
     <script src="index.js" type="module"></script>
   </body>
 </html>

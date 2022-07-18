@@ -1,27 +1,74 @@
-.e10_4 { 
-	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-	width:265px;
-	height:239px;
-	background-image:url(images/doctor.png);
-	background-repeat:no-repeat;
+ 
+ body{
+	font-family: 'Times New Roman', Times, serif;
+	margin:0;
+ }
+
+ h1{ font-size:2cm}
+ h2{ font-size:1.5cm}
+ h3{ font-size:1.5cm}
+ b{ font-size:1.20cm ;}
+ h4{ font-size:0.74cm}
+ p { font-size:1cm }
+option {font-size: 1cm}
+
+
+.container{ 
+	max-width: 1400px;
+	margin: auto;
+}
+
+header{
+	background-color: rgb(245, 245, 245);
+
+}
+header .logo{
+	margin: 0;
+	padding: 25px 30px;
+	font-weight: bold;
+	color:blueviolet;
+	font-size: 1.7cm;
+}
+header .container{
+	display: flex;
+	flex-direction: column;
+	align-content:center ;
+}
+#hero{
+	display:flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	height: 90vh;
+	background-color:whitesmoke;
+	background-image:linear-gradient(
+		0deg,
+		rgba(255,244,228,1) 7.1%,
+		 rgba(240,246,238,1) 67.4%
+	)
+	
+	url(bienestar.png);
+	background-repeat: no-repeat;
 	background-size:cover;
+	background-position: center;
+
+	
+}
+.box {
+  border: 5px solid rgb(120, 90, 150);
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 400px;
+  height: 700px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  font-size: 0.8cm;
+  background-position: center center;
 }
 
-.e3_2 { 
-	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-	width:620px;
-	height:93px;
-}
-.e3_2 { 
-	border:1px solid rgba(114.03900191187859, 9.009118974208832, 196.5624949336052, 1);
-}
 
-.e6_2 { 
-	color:rgba(20.61251074075699, 172.73278802633286, 206.12500101327896, 1);
-	width:515px;
-	height:58px;
-	font-family:IM FELL Great Primer;
-	text-align:right;
-	font-size:48px;
-	letter-spacing:0;
-}
+
+
+
+
