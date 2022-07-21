@@ -28,6 +28,7 @@ header .logo{
 	font-weight: bold;
 	color:blueviolet;
 	font-size: 1.7cm;
+	text-align: center;
 }
 header .container{
 	display: flex;
@@ -47,7 +48,7 @@ header .container{
 		 rgba(240,246,238,1) 67.4%
 	)
 	
-	url(bienestar.png);
+	url("images/bienestar.png");
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
