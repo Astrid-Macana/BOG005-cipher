@@ -31,7 +31,7 @@ const cipher = {
       if (form < 0){
         form = form + 26 + 65; 
       }else{
-        form = form + 65; 
+        form = form + 65;
       }
       txt2 += String.fromCharCode(form);
     }
