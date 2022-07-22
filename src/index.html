@@ -12,21 +12,21 @@
      </div>
       </header>
        <section id="hero"> 
-       <h1>Seremos la solucion mas oportuna clara y transparentes <br>¡Tu salud es nuestra prioridad!<br></h1>
+       <h1>Seremos la solución mas oportuna clara y transparente <br>¡Tu salud es nuestra prioridad!<br></h1>
    
       </section>
             <section id="salud-vida">
               <div [class]="container">
 
               <div class="img.container"></div>
-              <h2> Salud y vida </h2>
+              <h2> Salud y vida <span class="color-acento"></span></h2>
               <p>Tu bienestar y tranquilidad son nuestra meta, contamos con un gran talento humano de las distinas especialidades para así ser mas eficientes y oportunos en tu atención. </p>
            </div>
       
         </section>
   
 
-  ><section id="Nuestros programas">
+  <section id="Nuestros programas">
     <div class="container">
       <h3> Nuestros programas</h3>
           <div class="carta"></div>
@@ -36,26 +36,31 @@
          <selection name="programa"id="definicion">
          <option value="A">Adulto mayor</option>
          <option value="p">planificacion familiar</option> 
+         <option value="C">Cancer de Mama</option>
+         <option value="C">crecimiento y desarrollo en niños</option>
          <butoon>mas info</butoon>
          </selection>
           
          
          <h3>Especialidades</h3>
          <div class="carta"></div>
-         <selection name="nombre"id="especialidad">
-         <option value="N">Nurologia</option>
+         [<selection name="nombre"id="especialidad">
+         <option value="N">Neurologia</option>
          <option value="R">Reumatologia</option> 
-         <butoon>mas info</butoon>
-         </selection>
+         <option value="H">Hepalogia</option>
+         <option value="M">Medicina interna</option>
+         <butoon type="">mas info</butoon>
+         </selection>]
          
        
     </div>           
   </section>
 
-  <section class="form-register">
+  <section >
        <div class="container">
         <div class="box">
-          <h4>CONTRASEÑA:</h4>
+          <h4>INFORMATE:</h4>
+          <em> Escribe la especialidad o programa de tu interes</em>
           <p><input type="text" id="mensaje"></p>
           <h4>clave</h4>
           <p><input type="number" min="0" id="clave"size=4></p>
@@ -65,6 +70,7 @@
           <h4> Mensaje Descifrado</h4>
           <p> <button type="button" id="decode">Descifrar </button></p>
           <p ><textarea type="text" id="mensaje3" readonly></textarea> </p>
+          <em> toma el mensaje cifrado y envialao al siguiente correo:<br>salud-vida@gmail.com te brindaresmos toda la información  </em>
         </div>
         
 
