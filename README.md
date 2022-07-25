@@ -132,7 +132,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### JavaScript
 
-- [ ] **Tipos de datos primitivos**
+- [] **Tipos de datos primitivos**
 
   <details><summary>Links</summary><p>
 
@@ -244,8 +244,18 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
+-contexto: ips o eps 
+servicio: prestar a los paacientes informacion acerca de las especialidades y programas con los que ellos cuentan 
+
+
 * Quiénes son los principales usuarios de producto.
+los usuaruios son los pacientes pertenecientes ala ips salud y vida 
+
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
+objetivos de lo usuarios son .
+  1. saber a que especialidad o programa puede accerder
+  2. obtener informacion de su interes
+  3. mantener segura la informacion sobre
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
 ### Interfaz de usuario (UI)
@@ -442,6 +452,10 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 ### Parte Obligatoria
 
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
+
+mmi diseño de pagina 
+
+
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
 * [ ] `README.md` explica claramente cómo el producto soluciona los

@@ -16,4 +16,4 @@ function descifrar() {
     document.getElementById("clave").value,
     document.getElementById("mensaje").value
   );
-}
+  }

@@ -7,7 +7,7 @@
   </head>
   <body>
     <header>
-      <div class= ¨container¨> 
+      <div class= "container"> 
       <p class="logo">"Salud y Vida"</p>
      </div>
       </header>
@@ -16,42 +16,44 @@
    
       </section>
             <section id="salud-vida">
-              <div [class]="container">
+              <div class="container">
 
               <div class="img.container"></div>
-              <h2> Salud y vida <span class="color-acento"></span></h2>
+              <h2> Salud y vida </h2>
               <p>Tu bienestar y tranquilidad son nuestra meta, contamos con un gran talento humano de las distinas especialidades para así ser mas eficientes y oportunos en tu atención. </p>
            </div>
       
         </section>
   
 
-  <section id="Nuestros programas">
+  <section id="nuestros-programas">
     <div class="container">
       <h3> Nuestros programas</h3>
+      <div class="progrmas"> 
           <div class="carta"></div>
          <b>promoción y prevención </b>
-         <p> <br>¿Que son?</br>Son actividades basadas en el autocuidado y autocontrol, dirigidas a personas y familias para identificar riesgos y detectar tempranamente enfermedades y así brindar un tratamiento oportuno. </p>
+         <p><span> ¿Que son?</span> Son actividades basadas en el autocuidado y autocontrol, dirigidas a personas y familias para identificar riesgos y detectar tempranamente enfermedades y así brindar un tratamiento oportuno. </p>
         
-         <selection name="programa"id="definicion">
+         <selection name="programa" id="definicion">
          <option value="A">Adulto mayor</option>
          <option value="p">planificacion familiar</option> 
          <option value="C">Cancer de Mama</option>
          <option value="C">crecimiento y desarrollo en niños</option>
-         <butoon>mas info</butoon>
+         
          </selection>
           
          
          <h3>Especialidades</h3>
          <div class="carta"></div>
-         [<selection name="nombre"id="especialidad">
+         <selection name="nombre" id="especialidad">
          <option value="N">Neurologia</option>
          <option value="R">Reumatologia</option> 
-         <option value="H">Hepalogia</option>
+         <option value="H">Hepatologia</option>
          <option value="M">Medicina interna</option>
-         <butoon type="">mas info</butoon>
-         </selection>]
          
+         </selection>
+       
+        </div>  
        
     </div>           
   </section>
@@ -63,16 +65,16 @@
           <em> Escribe la especialidad o programa de tu interes</em>
           <p><input type="text" id="mensaje"></p>
           <h4>clave</h4>
-          <p><input type="number" min="0" id="clave"size=4></p>
+          <p><input type="number" min="0" id="clave" size="4"></p>
           <h4> Mensaje Cifrado</h4>
           <p> <button type="text" id="encode" >Cifrar </button></p>
           <p ><textarea type="text" id="mensaje2" readonly></textarea> </p>
           <h4> Mensaje Descifrado</h4>
           <p> <button type="button" id="decode">Descifrar </button></p>
           <p ><textarea type="text" id="mensaje3" readonly></textarea> </p>
-          <em> toma el mensaje cifrado y envialao al siguiente correo:<br>salud-vida@gmail.com te brindaresmos toda la información  </em>
+          <em> toma el mensaje cifrado y envialao al siguiente correo:<br>salud-vida@gmail.com te brindaremos toda la información  </em>
         </div>
-        
+       </div>
 
   
   </section>
