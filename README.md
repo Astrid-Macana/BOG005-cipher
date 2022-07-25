@@ -21,7 +21,8 @@ es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
 César lo usaba para enviar órdenes secretas a sus generales en los campos de
 batalla.
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+![caeser/cifer](src/images/prototipo.PNG)
+
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
@@ -252,11 +253,16 @@ servicio: prestar a los paacientes informacion acerca de las especialidades y pr
 los usuaruios son los pacientes pertenecientes ala ips salud y vida 
 
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
+
 objetivos de lo usuarios son .
   1. saber a que especialidad o programa puede accerder
   2. obtener informacion de su interes
-  3. mantener segura la informacion sobre
+  3. mantener segura la informacion sobre la especialidad o programa de interes mediante el mensaje cifrado
+
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
+la mayoria de pacientes por pena no acceden a consultas entonces de esta manera pueden acceder a la informacion donde solo ellos podran saber su diagnostico y tratamiento aumentando asi su privacidad y de igual manera dismunuiria la poblacion que por decinformacion acuden demaciado tarde al tramiento de su patologia 
+
+
 
 ### Interfaz de usuario (UI)
 
