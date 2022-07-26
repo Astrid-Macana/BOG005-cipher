@@ -1,28 +1,41 @@
 # Cifrado César
 
-## Índice
-
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
-
-***
-
-## 1. Preámbulo
-
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
-
 ![inicio de pagina web](src/images/pagina.PNG)
 
+
+### Definición del producto
+
+-contexto: ips o eps 
+servicio: prestar a los paacientes informacion acerca de las especialidades y programas con los que ellos cuentan 
+
+
+* Quiénes son los principales usuarios de producto.
+
+los usuaruios son los pacientes pertenecientes ala ips salud y vida 
+
+* Cuáles son los objetivos de estos usuarios en relación con tu producto.
+
+objetivos de lo usuarios son .
+  1. saber a que especialidad o programa puede accerder
+  2. obtener informacion de su interes
+  3. mantener segura la informacion sobre la especialidad o programa de interes mediante el mensaje cifrado
+
+* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+
+la mayoria de pacientes por pena no acceden a consultas entonces de esta manera pueden acceder a la informacion donde solo ellos podran saber su diagnostico y tratamiento aumentando asi su privacidad y de igual manera dismunuiria la poblacion que por decinformacion acuden demaciado tarde al tramiento de su patologia 
+
+
+
+### Interfaz de usuario (UI)
+
+La interfaz debe permitir al usuario:
+
+* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que
+  el cifrado desplace cada caracter.
+* Insertar un mensaje (texto) que queremos cifrar.
+* Ver el resultado del mensaje cifrado.
+* Insertar un mensaje (texto) a descifrar.
+* Ver el resultado del mensaje descifrado.
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
@@ -213,7 +226,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
   <details><summary>Links</summary><p>
 
-  * [Sitio oficial de GitHub Pages](https://pages.github.com/)
+  * [Sitio oficial de GitHub Pages](https://astrid-macana.github.io/BOG005-cipher/src/)
 </p></details>
 
 ### user-centricity
@@ -231,38 +244,5 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 
 
-### Definición del producto
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
-
--contexto: ips o eps 
-servicio: prestar a los paacientes informacion acerca de las especialidades y programas con los que ellos cuentan 
-
-
-* Quiénes son los principales usuarios de producto.
-los usuaruios son los pacientes pertenecientes ala ips salud y vida 
-
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-
-objetivos de lo usuarios son .
-  1. saber a que especialidad o programa puede accerder
-  2. obtener informacion de su interes
-  3. mantener segura la informacion sobre la especialidad o programa de interes mediante el mensaje cifrado
-
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
-la mayoria de pacientes por pena no acceden a consultas entonces de esta manera pueden acceder a la informacion donde solo ellos podran saber su diagnostico y tratamiento aumentando asi su privacidad y de igual manera dismunuiria la poblacion que por decinformacion acuden demaciado tarde al tramiento de su patologia 
-
-
-
-### Interfaz de usuario (UI)
-
-La interfaz debe permitir al usuario:
-
-* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que
-  el cifrado desplace cada caracter.
-* Insertar un mensaje (texto) que queremos cifrar.
-* Ver el resultado del mensaje cifrado.
-* Insertar un mensaje (texto) a descifrar.
-* Ver el resultado del mensaje descifrado.
 
