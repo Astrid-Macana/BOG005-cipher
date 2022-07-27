@@ -1,21 +1,26 @@
 const cipher = {
   encode: function (offset, string) {
-    let patternS = /[A-Z]$/i;
+    // Expresiones regulares ...patron mensaje....
+
+    let patternS =
+      /([0-9][a-zA-Z]|[a-zA-Z][0-9]|[0-9]|[ñÑ{}+^*|$/ªº!"@·#~%€&¬=?'¿¡`¨Ç_()-/\\/]|[/[\\/]\\]|[\t\s\n])/g;
     let text = string.toUpperCase();
     let resultS = patternS.test(text);
-    let patternO = /[0-9]$/;
-    let resultO = patternO.test(offset);
-    
-   //error
-   try { 
 
-    if (text === "") throw "El mensaje a cifrar no puede estar vacio";
-    if (!resultS) throw "El mensaje a cifrar no pede contener números";
-    
-     if (offset === txt2) throw "aun no has puesto tu clave";
-     if(!resultO) throw"no recibe letras o puntos"
-      if (offset <0) throw"no se aceptan numeros negativos";
-     
+    // Expresines reguladres ...patron clave...
+    let patternO = /([-.,][0-9]|[0-9][-.,])/g;
+    let resultO = patternO.test(offset);
+
+    // Bloque de código puede lanzar una excepción
+    try {
+      if (text === "") throw "El mensaje a cifrar no puede estar vacio";
+      if (resultS)throw "El mensaje a cifrar no pede contener números, espacios y caracteres especiales";
+
+      if (offset === "") throw "Aún no has puesto tu clave";
+      if (offset < 0) throw "No se aceptan numeros negativos";
+      if (resultO) throw " o se acepta como clave";
+
+// función cifrar
       var letra = 0;
       var form = 0;
       var txt2 = "";
@@ -26,30 +31,31 @@ const cipher = {
       }
       return txt2;
     
-   } catch (error) {
-    
-    alert(error);
-    return txt2="";
-   }
-
-
+    } catch (error) {
+      alert(error);
+      return (txt2 = "");
+    }
   },
 
   decode: function (offset, string) {
-        let patternS = /[A-Z]$/i;
+
+    let patternS =/([0-9][a-zA-Z]|[a-zA-Z][0-9]|[0-9]|[ñÑ{}+^*|$/ªº!"@·#~%€&¬=?'¿¡`¨Ç_()-/\\/]|[/[\\/]\\]|[\t\s\n])/g;
         let text = string.toUpperCase();
         let resultS = patternS.test(text);
-        let patternO = /[0-9]$/;
+
+        let patternO = /([-.,][0-9]|[0-9][-.,])/g;
         let resultO = patternO.test(offset);
+
     try{
       
-     if (text === "") throw " a un no has copidado el mensaje ya cifrado";
-     if (!resultS) throw "El mensaje a cifrar no pede contener números";
+      if (text === "") throw "El mensaje a cifrar no puede estar vacio";
+      if (resultS)throw "El mensaje a cifrar no pede contener números, espacios y caracteres especiales";
 
-     if (offset === "") throw "aun no has puesto tu clave";
-     if (!resultO) throw "no recibe letras o puntos";
-     if (offset < 0) throw "no se aceptan numeros negativos";
-    
+      if (offset === "") throw "Aún no has puesto tu clave";
+      if (offset < 0) throw "No se aceptan numeros negativos";
+      if (resultO) throw " o se acepta como clave";
+      
+    // funcion descifrar
   
     var letra = 0;
     var form = 0;
@@ -65,6 +71,7 @@ const cipher = {
       txt2 += String.fromCharCode(form);
     }
     return txt2;
+    
   } catch (error){
     alert(error);
     return txt2="";
